@@ -1,0 +1,120 @@
+/* container */
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+
+header {
+    display: flex;
+    padding: 53px 98px;
+    background-color: #284069;
+    align-items: center;
+}
+
+.logo_link {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    margin-right: 378px;
+}
+
+.logo_image {
+    width: 100%;
+    height: 100%;
+}
+
+.active {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    color: #E29770;
+}
+
+.inactive {
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+    color: #DDEAF8;
+}
+
+.middle_li_spacing {
+    margin-inline: 50px;
+}
+
+nav {
+    width: min(100%, 393px);
+    margin-right: 379px;
+}
+
+nav ul {
+    display: flex;
+}
+
+i {
+    width: 44px;
+    height: 44px;
+}
+
+/* section */
+.section_title {
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    color: #942C0D;
+}
+
+.main_section {
+    margin: 94px 98px;
+    display: flex;
+    flex-direction: column;
+}
+
+.child_section {
+    display: flex;
+    margin-top: 105px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 30px;
+    width: 32%;
+    height: 354px;
+    background-color: #DDEAF8;
+    margin-top: 30px;
+}
+
+.card_button {
+    width: 145px;
+    height: 44px;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #E29770;
+    border: 0;
+    color: #FFFFFF;
+    margin-block: 36px;
+}
+
+/* footer */
+
+footer {
+    padding: 70px 649px;
+    background-color: #284069;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_link {
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.footer_li_spacing{
+    margin-inline: 32px;
+}
